@@ -1,12 +1,27 @@
 # GitHub and R workshop
 
-Repository for github workshop in collaboration with Tambora and R Ladies Jakarta
+Repository for "Coding for Conservation: Integrating GitHub to Your Workflow" workshop in collaboration with Tambora and R Ladies Jakarta.
 
 ## Syllabus
 
 ### Day 1: Saturday, 8 April 2023
 
 Title: “Version Control and Collaborative Coding”
+
+Objectives:
+
+* Understand the importance of version control and collaborative coding
+* Learn the basics of Git and GitHub
+
+Software:
+
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com)
+* [GitHub CLI](https://cli.github.com/)
+
+Windows Only Software:
+
+* [PowerShell 7](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)
 
 | No. | Activity                                      | Time          |
 | --- | --------------------------------------------- | ------------- |
@@ -21,6 +36,24 @@ Title: “Version Control and Collaborative Coding”
 ### Day 2: Sunday, 9 April 2023
 
 Title: “Clean code and Reproducible Research”
+
+Objectives:
+
+* Understand the importance of clean code and reproducible research
+* Learn the basics of R and RStudio
+* Integrate Git and R workflow
+
+Software:
+
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com)
+* [GitHub CLI](https://cli.github.com/)
+* [R](https://www.r-project.org/)
+* [RStudio](https://rstudio.com/)
+
+Windows Only Software:
+
+* [PowerShell 7](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)
 
 | No. | Activity                                           | Time          |
 | --- | -------------------------------------------------- | ------------- |
