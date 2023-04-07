@@ -127,6 +127,34 @@ After you have committed a change, you can push the change to a remote repositor
 git push
 ```
 
+### Reverting Changes
+
+If you have made a mistake and want to revert your changes, you can do so by using the `git checkout` command. This command will replace the contents of your working directory with the last content in the index (i.e., the last content you've committed). Any changes to tracked files in the working directory since then will be lost.
+
+To revert your changes, run the following command:
+
+```bash
+git checkout -- <filename>
+```
+
+To revert all changes, run the following command:
+
+```bash
+git checkout -- .
+```
+
+### Going back to a Previous Commit
+
+If you have made a mistake and want to go back to a previous commit, you can do so by using the `git reset` command. This command will replace the contents of your working directory with the last content in the index (i.e., the last content you've committed). Any changes to tracked files in the working directory since then will be lost.
+
+To go back to a previous commit, run the following command:
+
+```bash
+git reset --hard <commit>
+```
+
+Do not use the `git reset` command if you have already pushed your changes to a remote repository. This will cause problems for other people who are working on the same repository.
+
 ### Pulling Changes
 
 If you are working on a branch that is not your master branch (in fact, any branch that is not up to date or even with the remote), you'll want to first pull in the changes. Pulling is the act of fetching in changes and merging them. To pull a change, run the following command:
@@ -199,8 +227,17 @@ To fork a repository, navigate to the repository and click the `Fork` button in 
 git clone <repository url>
 ```
 
+## Gitignore
+
+To create a `.gitignore` file, run the following command:
+
+```bash
+touch .gitignore
+```
+
 ## Resources
 
-Reference: [https://guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)
+[https://guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)
+[https://www.atlassian.com/git/tutorials/what-is-version-control](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
 Disclaimer: This lesson is AI assisted with close supervision by the maintainer. Please report any errors to the maintainer.
