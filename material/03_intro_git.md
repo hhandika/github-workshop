@@ -198,3 +198,9 @@ To fork a repository, navigate to the repository and click the `Fork` button in 
 ```bash
 git clone <repository url>
 ```
+
+## Resources
+
+Reference: [https://guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)
+
+Disclaimer: This lesson is AI assisted with close supervision by the maintainer. Please report any errors to the maintainer.

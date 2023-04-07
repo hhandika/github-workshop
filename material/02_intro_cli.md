@@ -133,3 +133,11 @@ The `nano` command opens the `nano` text editor.
 ```bash
 nano test.txt
 ```
+
+Resources:
+
+- [Linux Command Line Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/)
+- [Vim Tutorial](https://www.openvim.com/)
+- [Nano Tutorial](https://www.nano-editor.org/dist/latest/cheatsheet.html)
+
+Disclaimer: This lesson is AI assisted. Please report any errors to the maintainer.
