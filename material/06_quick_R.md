@@ -146,10 +146,6 @@ x
 ``` r
 x <- data.frame(x = 1:4, y = c(T, T, F, F))
 x
-#>   x     y
-#> 1 1  TRUE
-
-#> 2 2  TRUE
 ```
 
 ## Intro to functions
@@ -161,7 +157,6 @@ x <- 1:10
 
 # Sum
 sum(x)
-#> [1] 55
 ```
 
 ### User-defined functions
@@ -203,6 +198,26 @@ library(tidyverse)
 - `janitor`
 - `here`
 - `pacman`
+
+## Pipe operator
+
+### What is pipe operator?
+
+- The pipe operator `%>%` or `|>` is used to pass the output of one function as the input of another function.
+
+``` r
+# Without pipe operator
+myData <- iris
+
+myFilteredData <- filter(myData, Species == "setosa")
+
+mySelectedData <- select(myFilteredData, Sepal.Length, Sepal.Width)
+
+# With pipe operator
+iris %>% 
+  filter(Species == "setosa") %>% 
+  select(Sepal.Length, Sepal.Width)
+```
 
 ## Namespace
 
