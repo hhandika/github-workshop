@@ -4,6 +4,26 @@ Repository for "Coding for Conservation: Integrating GitHub to Your Workflow" wo
 
 ## Syllabus
 
+Software Requirements:
+
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com)
+* [GitHub CLI](https://cli.github.com/)
+* [R](https://www.r-project.org/)
+* [RStudio](https://posit.co/downloads/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+Windows Only:
+
+* [PowerShell 7](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)
+* [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
+* [WinGet (optional)](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
+
+MacOS Only:
+
+* [Homebrew](https://brew.sh/)
+* [iTerm2 (optional)](https://iterm2.com/)
+
 ### Day 1: Saturday, 8 April 2023
 
 Title: “Version Control and Collaborative Coding”
@@ -12,16 +32,6 @@ Objectives:
 
 * Understand the importance of version control and collaborative coding
 * Learn the basics of Git and GitHub
-
-Software:
-
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com)
-* [GitHub CLI](https://cli.github.com/)
-
-Windows Only Software:
-
-* [PowerShell 7](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)
 
 | No. | Activity                                      | Time          |
 | --- | --------------------------------------------- | ------------- |
@@ -42,18 +52,6 @@ Objectives:
 * Understand the importance of clean code and reproducible research
 * Learn the basics of R and RStudio
 * Integrate Git and R workflow
-
-Software:
-
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com)
-* [GitHub CLI](https://cli.github.com/)
-* [R](https://www.r-project.org/)
-* [RStudio](https://rstudio.com/)
-
-Windows Only Software:
-
-* [PowerShell 7](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.3)
 
 | No. | Activity                                           | Time          |
 | --- | -------------------------------------------------- | ------------- |
